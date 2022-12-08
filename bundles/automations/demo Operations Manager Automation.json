@@ -1,0 +1,35 @@
+{
+  "_id": "6377bebbf456cd0115d45ed1",
+  "name": "demo Operations Manager Automation",
+  "description": "Better description",
+  "componentName": "demo Parent Workflow",
+  "componentType": "workflows",
+  "gbac": {
+    "write": [],
+    "read": []
+  },
+  "created": "2022-11-18T17:19:55.088Z",
+  "createdBy": "admin@pronghorn",
+  "lastUpdated": "2022-12-07T21:42:42.203Z",
+  "lastUpdatedBy": "admin@pronghorn",
+  "triggers": [
+    {
+      "_id": "639108d2eba85f021d3dc2ae",
+      "created": "2022-11-18T17:23:22.708Z",
+      "createdBy": "admin@pronghorn",
+      "lastUpdated": "2022-12-07T21:42:42.940Z",
+      "lastUpdatedBy": "admin@pronghorn",
+      "name": "Run Automation",
+      "type": "manual",
+      "enabled": true,
+      "actionType": "automations",
+      "actionId": "6377bebbf456cd0115d45ed1",
+      "formId": "demo JSON Form",
+      "formData": {
+        "inputString": "Hello World 3"
+      },
+      "formSchemaHash": "bce931014bac70209cd3e545745fb0ae4ee96aa835d9c7b91558976f7d86f30c",
+      "migrationVersion": 1
+    }
+  ]
+}
